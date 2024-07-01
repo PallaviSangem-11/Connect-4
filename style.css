@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin-top:10px;
+    background:rgb(2, 119, 47);
+    padding:10px;
+    color:white;
+    text-shadow: 0px 0px 15px black;
+}
+#board {
+    height: 440px;
+    width: 530px;
+    background-color: blue;
+    border: 5px solid navy;
+    margin: 30px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+.hor{
+    display:flex;
+}
+.player{
+    margin:10%;
+    height:100px;
+    width:200px;
+    border:1px solid black;
+    border-radius:10px;
+    background-color: rgba(241, 236, 236, 0.507);
+    box-shadow:0px 0px 5px black;
+    padding:2%;
+    position: relative;
+    flex-direction: column;
+}
+.yr{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#Y{
+    width:50px;
+    height:50px;
+    border:3px solid rgb(209, 209, 19);
+    background-color: yellow;
+    border-radius:50%;
+}
+#R{
+    width:50px;
+    height:50px;
+    border:3px solid rgb(187, 33, 33);
+    background-color: rgb(250, 5, 5);
+    border-radius:50%;
+}
+p{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+input{
+    color:rgb(3, 100, 3);
+    font-weight: bold;
+    border:none;
+    outline:none;
+    font-size: 20px;
+    padding: 0.75%;
+    cursor:pointer;
+    display:inline-block;
+    border:1px solid black;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(241, 236, 236, 0.525);
+    border-radius:30px;
+    margin-right:-10%;
+}
